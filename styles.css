@@ -157,6 +157,12 @@ section {
     box-shadow: 0 8px 24px rgba(0,255,208,0.12);
 }
 
+.project-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+}
+
 .contact form {
     display: flex;
     flex-direction: column;
