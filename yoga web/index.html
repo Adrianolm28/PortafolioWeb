@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Mindful - Encuentra tu paz interior</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Yoga Mindful</h1>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#clases">Clases</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button class="menu-toggle">☰</button>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>Encuentra tu equilibrio interior</h2>
+            <p>Un espacio de paz y transformación personal</p>
+            <a href="#clases" class="btn btn-primary">Descubre nuestras clases</a>
+        </div>
+    </header>
+
+    <section id="sobre-nosotros" class="section fade-in">
+        <div class="container">
+            <h2>Nuestra Filosofía</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>En Yoga Mindful, creemos en el poder transformador del yoga como camino hacia el bienestar integral. Nuestro espacio está diseñado para ayudarte a encontrar la paz interior y desarrollar una práctica consciente.</p>
+                    <a href="#contacto" class="btn btn-secondary">Conócenos</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Práctica de yoga">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="clases" class="section fade-in">
+        <div class="container">
+            <h2>Nuestras Clases</h2>
+            <div class="classes-grid">
+                <div class="class-card">
+                    <img src="https://images.unsplash.com/photo-1599447421416-3414500d18a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Yoga para Principiantes">
+                    <div class="class-content">
+                        <h3>Yoga para Principiantes</h3>
+                        <p>Inicia tu viaje en el yoga con bases sólidas</p>
+                        <span class="price">Desde $150/clase</span>
+                    </div>
+                </div>
+                <div class="class-card">
+                    <img src="https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Hatha Yoga">
+                    <div class="class-content">
+                        <h3>Hatha Yoga</h3>
+                        <p>Equilibra cuerpo y mente con posturas clásicas</p>
+                        <span class="price">Desde $180/clase</span>
+                    </div>
+                </div>
+                <div class="class-card">
+                    <img src="https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Vinyasa Flow">
+                    <div class="class-content">
+                        <h3>Vinyasa Flow</h3>
+                        <p>Secuencias dinámicas para practicantes avanzados</p>
+                        <span class="price">Desde $200/clase</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section fade-in">
+        <div class="container">
+            <h2>Contáctanos</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Información</h3>
+                    <p>📍 Calle Principal 123, Ciudad</p>
+                    <p>📞 +123 456 789</p>
+                    <p>✉️ info@yogamindful.com</p>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Nombre" required>
+                    <input type="email" placeholder="Email" required>
+                    <select required>
+                        <option value="">Selecciona una clase</option>
+                        <option value="principiantes">Yoga para Principiantes</option>
+                        <option value="hatha">Hatha Yoga</option>
+                        <option value="vinyasa">Vinyasa Flow</option>
+                    </select>
+                    <textarea placeholder="Mensaje" required></textarea>
+                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Yoga Mindful</h3>
+                    <p>Tu espacio de paz y transformación</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Horarios</h3>
+                    <p>Lunes a Viernes: 7:00 - 21:00</p>
+                    <p>Sábados: 9:00 - 14:00</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Síguenos</h3>
+                    <div class="social-links">
+                        <a href="#">Instagram</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Yoga Mindful. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Menú móvil
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+
+        // Animación de aparición al scroll
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(element => {
+            observer.observe(element);
+        });
+    </script>
+</body>
+</html> 
