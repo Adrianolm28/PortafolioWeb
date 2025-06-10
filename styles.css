@@ -217,24 +217,30 @@ section {
     }
     .skills-icons {
         flex-wrap: wrap;
-        gap: 16px;
+        gap: 12px;
         margin-top: 1.5rem;
         margin-bottom: 1rem;
     }
     .skill-icon {
-        min-width: 70px;
+        min-width: 60px;
         margin-bottom: 0.5rem;
+    }
+    .skill-icon img {
+        width: 44px;
+        height: 44px;
+        padding: 6px;
     }
 }
 .skills-icons {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    gap: 10px; /* Solo 10px de separación entre los logos */
+    gap: 10px;
     margin-bottom: 1rem;
     margin-left: 0;
     margin-right: 0;
     margin-top: 2.5rem;
+    flex-wrap: wrap; /* Permite que los logos bajen de línea */
 }
 
 .skill-icon {
